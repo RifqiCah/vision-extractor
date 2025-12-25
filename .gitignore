@@ -1,0 +1,23 @@
+# --- KUNCI RAHASIA (WAJIB ADA) ---
+.env
+.env.local
+
+# --- Python & Environment ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Streamlit ---
+.streamlit/secrets.toml
+
+# --- IDE & System ---
+.vscode/
+.idea/
+.DS_Store
