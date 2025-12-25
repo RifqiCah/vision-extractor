@@ -507,7 +507,7 @@ col1, col2 = st.columns([1, 1.5], gap="large")
 
 with col1:
     with st.container():
-        st.markdown("###Upload Foto Catatan")
+        st.markdown("Upload Foto Catatan")
         st.markdown("<p style='font-size: 14px; margin-bottom: 16px;'>Format: JPG, PNG, JPEG (Maks 10MB)</p>", unsafe_allow_html=True)
         
         uploaded_file = st.file_uploader("", type=["jpg", "png", "jpeg"], label_visibility="collapsed")
