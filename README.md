@@ -1,18 +1,20 @@
 # SmartBoard AI
 
-Aplikasi berbasis Computer Vision untuk mengubah foto papan tulis atau catatan fisik menjadi aset digital yang terstruktur.
-## Preview Aplikasi
+A Computer Vision-based application that transforms whiteboard photos and physical notes into structured digital assets.
 
-Berikut adalah tampilan antarmuka aplikasi saat memproses catatan:
+## Application Preview
+
+Here is a preview of the application interface processing notes:
 
 ![SmartBoard AI Preview](assets/result.jpeg)
-## Fitur Utama
+
+## Key Features
 
 ### Digitize Notes
-Mengubah tulisan tangan dari foto menjadi dokumen teks Markdown yang rapi. AI akan memperbaiki struktur kalimat dan format agar mudah dibaca.
+Converts handwriting from images into clean Markdown text documents. The AI enhances sentence structure and formatting to improve readability.
 
 ### Action Items Extraction
-Menganalisis konten catatan meeting atau kuliah untuk mendeteksi poin-poin tugas (Task), Penanggung Jawab (PIC), dan Tenggat Waktu (Deadline) secara otomatis dalam format JSON terstruktur.
+Analyzes meeting or lecture notes to automatically detect **Tasks**, **Person In Charge (PIC)**, and **Deadlines**, outputting the data in a structured JSON format.
 
 ## Tech Stack
 
@@ -20,9 +22,9 @@ Menganalisis konten catatan meeting atau kuliah untuk mendeteksi poin-poin tugas
 * **Streamlit** (User Interface)
 * **Google Gemini 1.5 Flash** (Multimodal LLM)
 
-## Cara Menjalankan
+## How to Run
 
-1.  **Clone Repository**
+1.  **Clone the Repository**
     ```bash
     git clone [https://github.com/RifqiCah/vision-extractor.git](https://github.com/RifqiCah/vision-extractor.git)
     cd vision-extractor
@@ -34,21 +36,21 @@ Menganalisis konten catatan meeting atau kuliah untuk mendeteksi poin-poin tugas
     ```
 
 3.  **Setup API Key**
-    Buat file `.env` dan masukkan API Key Google Gemini:
+    Create a `.env` file in the root directory and add your Google Gemini API Key:
     ```env
-    GOOGLE_API_KEY=Paste_API_Key_Disini
+    GOOGLE_API_KEY=Paste_Your_API_Key_Here
     ```
 
-4.  **Jalankan Aplikasi**
+4.  **Run the Application**
     ```bash
     streamlit run app.py
     ```
 
-## Struktur Project
+## Project Structure
 
 ```text
 vision-extractor/
-├── app.py                # Interface Utama
-├── services/             # Logika AI (Gemini)
-├── config/               # Konfigurasi Environment
+├── app.py                # Main Interface
+├── services/             # AI Logic (Gemini)
+├── config/               # Environment Configuration
 └── utils/                # Helper Functions
