@@ -1,7 +1,11 @@
 # SmartBoard AI
 
 Aplikasi berbasis Computer Vision untuk mengubah foto papan tulis atau catatan fisik menjadi aset digital yang terstruktur.
+## Preview Aplikasi
 
+Berikut adalah tampilan antarmuka aplikasi saat memproses catatan:
+
+![SmartBoard AI Preview](result.jpeg)
 ## Fitur Utama
 
 ### Digitize Notes
