@@ -5,7 +5,7 @@ Aplikasi berbasis Computer Vision untuk mengubah foto papan tulis atau catatan f
 
 Berikut adalah tampilan antarmuka aplikasi saat memproses catatan:
 
-![SmartBoard AI Preview](result.jpeg)
+![SmartBoard AI Preview](assets/result.jpeg)
 ## Fitur Utama
 
 ### Digitize Notes
